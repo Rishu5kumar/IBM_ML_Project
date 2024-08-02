@@ -15,7 +15,7 @@ app = Flask(__name__)
 model = joblib.load('model.pkl')
 encoder = joblib.load('encoder.pkl')
 
-genai.configure(api_key="AIzaSyDI4oR8gtYuH1qJtgF26xq6p6pi8NJ6vqM") # Replace this with your gemini-api key 
+genai.configure(api_key="AIzaSyCX3I28pHzmiSEM6Rt1kdVX7e2BhwSuOOA") # Replace this with your gemini-api key 
 
 @app.route('/')
 def index():
